@@ -1,4 +1,4 @@
-# luquinhatd2
+
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -31,11 +31,27 @@ void q4() {
     printf("O valor digitado foi %d\n", num);
 }
 //5. Faça um programa que leia dois números reais e os imprima.
-git 
+void q5() {
+float x = 0, y = 0;
+printf( "\n digite um numero real");
+scanf ( "%f",&x);
+printf( "\n digite um numero real");
+scanf ( "%f",&y);
+printf("os numeros digitados foramma %f %f" ,x, y);
 
-
+}
 //6. Faça um programa que leia um número inteiro e imprima o seu
 //   antecessor e o seu sucessor.
+void q6() {
+int x = 0, a = 0, s = 0;
+printf("\n digite um numero inteiro");
+scanf("%d",&x);
+a=x-1;
+s=x+1;
+printf("\n o numero antecessor é: %d", a);
+printf("\n o numero sucessor é: %d", s);
+
+}
 
 //7. Faça um programa que leia o nome o endereço e o telefone de
 //   um cliente e ao final, imprima esses dados.
@@ -104,6 +120,6 @@ git
 //    necessário também ler o valor da cotação do dólar.
 
 int main() {
-    q1();
+    q6();
     return EXIT_SUCCESS;
 }
