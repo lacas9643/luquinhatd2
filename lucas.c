@@ -61,16 +61,16 @@ void q7() {
  scanf(" %50[^\n]", nome);
  printf(" endereco; ");
  scanf(" %50[^\n]", endereco);
-printf("telefone: " );
+ printf("telefone: " );
  scanf(" %50[^\n]", telefone);
  printf("%s\n%s\n%s|n",nome, endereco, telefone);
-
-
-
 
 }
 //8. Faça um programa que leia dois números inteiros e imprima a
 //   subtração deles.
+
+
+
 
 //9. Faça um programa que leia umnúmero real e imprima ¼ deste número.
 
