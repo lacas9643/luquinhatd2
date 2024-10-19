@@ -55,7 +55,20 @@ printf("\n o numero sucessor é: %d", s);
 
 //7. Faça um programa que leia o nome o endereço e o telefone de
 //   um cliente e ao final, imprima esses dados.
+void q7() {
+ char nome [50], endereco[50], telefone[14];
+ printf("nome: " );
+ scanf(" %50[^\n]", nome);
+ printf(" endereco; ");
+ scanf(" %50[^\n]", endereco);
+printf("telefone: " );
+ scanf(" %50[^\n]", telefone);
+ printf("%s\n%s\n%s|n",nome, endereco, telefone);
 
+
+
+
+}
 //8. Faça um programa que leia dois números inteiros e imprima a
 //   subtração deles.
 
@@ -120,6 +133,6 @@ printf("\n o numero sucessor é: %d", s);
 //    necessário também ler o valor da cotação do dólar.
 
 int main() {
-    q6();
+    q7();
     return EXIT_SUCCESS;
 }
