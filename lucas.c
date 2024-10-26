@@ -14,7 +14,7 @@ void q1() {
 
 //2. Faça um programa que imprima o produto dos valores 30 e 27.
 void q2() {
-    printf("30*27 = %d\n", 30*27);
+    printf("30*27 = %d\n", 30*27);gg
 }
 
 //3. Faça um programa que imprima a média aritmética entre os números 5, 8, 12.
@@ -68,20 +68,45 @@ void q7() {
 }
 //8. Faça um programa que leia dois números inteiros e imprima a
 //   subtração deles.
-
-
-
+void q8() {
+int subtracao, num1, num2;
+printf("digite o primeiro numero: ");
+scanf("%d" ,&num1);
+printf("digite o segundo numero: ");
+scanf("%d", &num2);
+subtracao = num1 - num2;
+printf(" o resulto da subtracao: %d", subtracao);
+}
 
 //9. Faça um programa que leia umnúmero real e imprima ¼ deste número.
-
+void q9() {
+float resultado = 0 ,  n = 0;
+printf("digite um numero: ");
+scanf("%f", &n);
+resultado = n/4;
+printf("resultado: %.2f" , resultado );
+}
 //10. Faça um programa que leia três números reais e calcule a
 //    média aritmética destes números. Ao final, o programa deve
 //    imprimir o resultado do cálculo.
-
+void q10() {
+float media, n1, n2, n3;
+printf(" digite o numero 1: ");
+scanf("%f", &n1);
+printf(" digite o numero 2: ");
+scanf("%f", &n2);
+printf(" digite o numero 3: ");
+media = (n1+n2+n3) /3;
+}
 //11. Faça um programa que leia dois números reais e calcule as
 //    quatro operações básicas entre estes dois números, adição,
 //    subtração,multiplicação e divisão. Ao final, o programa
 //    deve imprimir os resultados dos cálculos.
+
+
+
+
+
 
 //12. Faça um programa que leia um número real e calcule o
 //    quadrado deste número. Ao final, o programa deve
@@ -133,6 +158,6 @@ void q7() {
 //    necessário também ler o valor da cotação do dólar.
 
 int main() {
-    q7();
+    q10(); 
     return EXIT_SUCCESS;
 }
