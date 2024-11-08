@@ -14,7 +14,7 @@ void q1() {
 
 //2. Faça um programa que imprima o produto dos valores 30 e 27.
 void q2() {
-    printf("30*27 = %d\n", 30*27);gg
+    printf("30*27 = %d\n", 30*27);
 }
 
 //3. Faça um programa que imprima a média aritmética entre os números 5, 8, 12.
