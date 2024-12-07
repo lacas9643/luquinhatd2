@@ -159,6 +159,15 @@ void questao08() {
 //ano de nascimento informado é válido.
 void questao09() {
 	
+int nascimento, anoAtual;
+ printf("Digite o ano de nascimento: \n");
+ scanf("%d", &nascimento);
+ printf("Digite o ano atual: \n");
+ scanf("%d", &anoAtual);
+ if (nascimento > 0 && nascimento <= anoAtual) {
+ printf("Sua idade: %d",anoAtual - nascimento);
+ else
+ printf("Data de nascimento invalida");
 }
 
 //10. Faça um programa que leia três números inteiros e imprima os três em ordem
