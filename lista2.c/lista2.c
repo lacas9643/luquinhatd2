@@ -115,18 +115,43 @@ void questao05() {
 //valor da prestação e informar se o empréstimo pode ou não ser concedido.
 void questao06() {
 
+int salario, prestacao;
+ printf("Digite o salario bruto: ");
+ scanf("%d",&salario);
+ printf("Digite o valor da prestacao: ");
+ scanf("%d",&prestacao);
+ if (prestacao <= (salario * 0.3))
+ printf("Emprestimo consedido");
+ else 
+ printf("Emprestimo nao consedido");
 }
 
 //7. Faça um programa que leia um número e indique se o número está compreendido
 //entre 20 e 50 ou não.
 void questao07() {
 
+int num;
+printf("Digite o numero: ");
+scanf("%d",&num);
+if (num >= 20 && num <= 50)
+printf("Numero entre 20 e 50");
+else
+printf("Numero menor que 20 ou maior que 50");
 }
 
 //8. Faça um programa que leia um número e imprima uma das mensagens: 
 //"Maior do que 20", "Igual a 20"ou "Menor do que 20".
 void questao08() {
 	
+ int num;
+ printf("Digite o numero: ");
+ scanf("%d", &num);
+ if (num > 20)
+ printf("Numero maior que 20");
+ else if (num == 20)
+ printf("Numero igual a 20");
+ else
+ printf("Numero menor que 20");
 }
 
 //9. Faça um programa que permita entrar com o ano de nascimento da pessoa e como ano
