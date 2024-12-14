@@ -43,14 +43,40 @@ void exemploPrimeiroMilhao() {
 }
 
 //1.Faça um programa que imprima todos os números de 1 até 100.
-
+ void main()
+ {
+ int i;
+ for (i=1; i<=100; i++)
+ printf("%d \n", i)
+}
 //2. Faça um programa que imprima todos os números pares de 100 até 1.
+ void main()
+ {
+ int i;
+ for (i=100; i>=1; i--) {
+ if (i%2 == 0)
+ printf("%d \n", i);
+ }
 
 //3. Faça um programa que imprima os múltiplos de 5, no intervalo de 1 até 500.
-        
+ void main()
+ {
+ int i;
+ for (i=1; i<=500; i++) {
+ if (i%5 == 0)
+ printf("%d \n",i);
+ }
+  }
+
 //4. Faça um programa que permita entrar com o nome, a idade e o sexo de 20
 //pessoas.O programa deve imprimir o nome da pessoa se ela for do sexo masculino
 //e tiver mais de 21 anos.
+
+
+
+
+
+
 
 //5. Sabendo-se que a unidade lógica e aritmética calcula o produto através de somas
 //sucessivas, crie um programa que calcule o produto de dois números inteiros

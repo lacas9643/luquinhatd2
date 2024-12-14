@@ -8,7 +8,7 @@ Exercícios sobre os comandos básicos em C
 */
 
 //1. Faça um programa que imprima o seu nome.
-void q1() {
+    void q1() {
     printf("João Paulo!\n");
 }
 
